@@ -1,0 +1,37 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:colorBackground">@color/colorBackground</item>
+        <item name="android:textColorHighlight">#4D1A6FEE</item>
+        <item name="android:textCursorDrawable">@drawable/edittext_cursor</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="android:textColorHint">@color/colorTextSecondary</item>
+    </style>
+
+    <style name="spinner_style" >
+        <item name="overlapAnchor">true</item>
+        <item name="android:background">@drawable/spinner</item>
+    </style>
+
+    <style name="bottom_navigation" parent="">
+        <item name="backgroundTint">@color/white</item>
+        <item name="itemTextAppearanceActive">@style/TextAppearance.BottomNavigationView.Active</item>
+        <item name="itemTextAppearanceInactive">@style/TextAppearance.BottomNavigationView.Inactive</item>
+    </style>
+
+    <style name="TextAppearance"/>
+    <style name="TextAppearance.BottomNavigationView"/>
+
+    <style name="TextAppearance.BottomNavigationView.Inactive">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="TextAppearance.BottomNavigationView.Active">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="bottom_sheet_animation">
+        <item name="android:windowEnterAnimation">@anim/slide_in_bottom</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_bottom</item>
+    </style>
+</resources>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/oplata"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"/>
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/image_analyzes" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/green"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:layout_marginTop="30dp"
+        android:text="@string/zakaz" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:text="Вам осталось дождаться приезда медсестры и сдать анализы. До скорой встречи!" />
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:text="Не забудьте ознакомиться с " />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="375dp"
+        android:layout_height="60dp"
+        android:textAllCaps="false"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/blueforbutton"
+        android:textSize="17sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="Чек покупки" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="375dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/blueforbutton"
+        android:onClick="naglav"
+        android:text="На главную"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="17sp" />
+</LinearLayout>
